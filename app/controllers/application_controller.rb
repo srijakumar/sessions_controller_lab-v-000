@@ -6,5 +6,5 @@ class ApplicationController < ActionController::Base
   def login
     redirect_to controller: 'sessions', action: 'new' unless sessions[:name]
   end
-  
+
 end
